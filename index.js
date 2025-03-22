@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .catch(error => {
                   console.error('Error updating tickets:', error);
-                  alert('Failed to update tickets. Please try again.');
+                  alert('Failed to update tickets. Please try again. Unless you don\'t want to buy tickets bruv');
                 });
             }
           };
         })
         .catch(error => {
           console.error('Error fetching movie:', error);
-          alert('Failed to load movie details. Please try again.');
+          alert('Failed to load movie details. Please try again. Unless you don\t want to see the movie bruv');
         });
     }
   
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .catch(error => {
                   console.error('Error deleting movie:', error);
-                  alert('Failed to delete movie.');
+                  alert('Failed to delete movie. TUFF');
                 });
             });
             listItem.appendChild(deleteButton);
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
           console.error('Error fetching movies list:', error);
-          alert('Failed to load movies list.');
+          alert('Failed to load movies list. TUFF');
         });
     }
   

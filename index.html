@@ -1,1 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flatadango Movie Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="movie-list">
+      <h1>Movies</h1>
+      <ul id="films">
+        <li class="film item">Loading...</li>
+      </ul>
+    </aside>
+
+    <main class="movie-details">
+      <div class="movie-card">
+        <img id="movie-poster" src="" alt="Movie Poster" class="movie-poster">
+        <div class="movie-info">
+          <h2 id="movie-title"></h2>
+          <p id="movie-runtime"></p>
+          <p id="movie-showtime"></p>
+          <p id="movie-available-tickets"></p>
+          <button id="buy-ticket">Buy Ticket</button>
+        </div>
+        <p id="movie-description" class="movie-description"></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

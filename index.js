@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .catch(error => {
                   console.error('Error updating tickets:', error);
-                  alert('Failed to update tickets. Please try again. Unless you don\'t want to buy tickets bruv');
+                  alert('Failed to update tickets. Please try again. Unless you don wanna to buy tickets bruv');
                 });
             }
           };
         })
         .catch(error => {
           console.error('Error fetching movie:', error);
-          alert('Failed to load movie details. Please try again. Unless you don\t want to see the movie bruv');
+          alert('Failed to load movie details. Please try again. Unless you don wanna to see the movie bruv');
         });
     }
   

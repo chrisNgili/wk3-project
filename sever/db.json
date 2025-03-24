@@ -11,6 +11,37 @@
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
     },
     {
+      "id": "2",
+      "title": "Manos: The Hands Of Fate",
+      "runtime": "118",
+      "capacity": 50,
+      "showtime": "06:45PM",
+      "tickets_sold": 44,
+      "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Time Chasers",
+      "runtime": "93",
+      "capacity": 50,
+      "showtime": "09:30PM",
+      "tickets_sold": 31,
+      "description": "An inventor comes up with a time machine, but must prevent its abuse at the hands of an evil C.E.O.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/23342/p23342_v_v8_ab.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Touch Of Satan",
+      "runtime": "101",
+      "capacity": 40,
+      "showtime": "09:00PM",
+      "tickets_sold": 31,
+      "description": "A young man meets a farm girl who is actually a witch.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/43468/p43468_v_v8_aa.jpg"
+    },
+ 
+    {
       "id": "5",
       "title": "Santa Claus Conquers The Martians",
       "runtime": "96",
@@ -26,7 +57,7 @@
       "runtime": "112",
       "capacity": 30,
       "showtime": "10:30PM",
-      "tickets_sold": 16,
+      "tickets_sold": 29,
       "description": "A young man is transformed into a hideous 'moon beast' due to a meteor fragment lodged in his body.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/39804/p39804_v_v8_ab.jpg"
     },

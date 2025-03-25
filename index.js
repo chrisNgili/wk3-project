@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentMovieId = 2;
   
     function fetchAndDisplayMovie(movieId) {
-      fetch(`http://localhost:3000/films/${movieId}`)
+      fetch(`https://wk3-project-wz2u.onrender.com/films/${movieId}`)
         .then(response => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
           buyTicketButton.onclick = () => {
             if (movie.capacity - movie.tickets_sold > 0) {
-              fetch(`http://localhost:3000/films/${movieId}`, {
+              fetch(`https://wk3-project-wz2u.onrender.com/films/${movieId}`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ tickets_sold: movie.tickets_sold + 1 }),
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function fetchAndDisplayMoviesList() {
-      fetch('http://localhost:3000/films')
+      fetch('https://wk3-project-wz2u.onrender.com/films')
         .then(response => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             deleteButton.id = "extractor"
             deleteButton.addEventListener('click', (event) => {
               event.stopPropagation();
-              fetch(`http://localhost:3000/films/${movie.id}`, {
+              fetch(`https://wk3-project-wz2u.onrender.com/films/${movie.id}`, {
                 method: 'DELETE',
               })
                 .then(response => {
